@@ -8,6 +8,7 @@ const Bloglist = ({ blogs, title }) => {
           <p>
             Written by <span>{blog.author}</span>
           </p>
+          <p className="blog-body">{blog.body}</p>
         </div>
       ))}
     </div>
